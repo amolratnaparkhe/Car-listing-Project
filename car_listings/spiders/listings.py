@@ -9,7 +9,7 @@ class ListingsSpider(scrapy.Spider):
     increment_by = 15
     offset=0
     allowed_domains = ['www.cargurus.com']
-    start_urls = ["https://www.cargurus.com/Cars/searchResults.action?zip=44106&inventorySearchWidgetType=BODYSTYLE&searchId=ef514953-df0b-4956-959f-a88c61345e5b&nonShippableBaseline=0&makeIds=55&sortDir=ASC&sourceContext=carGurusHomePageBody&distance=200&minPrice=0&sortType=DEAL_SCORE&endYear=2021&entitySelectingHelper.selectedEntity=bg6&startYear=2005&offset=0&maxResults=15&filtersModified=true"]
+    start_urls = ["https://www.cargurus.com/Cars/searchResults.action?zip=44106&inventorySearchWidgetType=BODYSTYLE&searchId=ef514953-df0b-4956-959f-a88c61345e5b&nonShippableBaseline=0&makeIds=42&sortDir=ASC&sourceContext=carGurusHomePageBody&distance=200&minPrice=0&sortType=DEAL_SCORE&endYear=2021&entitySelectingHelper.selectedEntity=bg6&startYear=2005&offset=0&maxResults=15&filtersModified=true"]
 
     # def start_requests(self):
     #     yield scrapy.Request(url="https://www.cargurus.com/Cars/searchResults.action?zip=44106&inventorySearchWidgetType=BODYSTYLE&searchId=ef514953-df0b-4956-959f-a88c61345e5b&nonShippableBaseline=0&makeIds=1&sortDir=ASC&sourceContext=carGurusHomePageBody&distance=200&minPrice=0&sortType=DEAL_SCORE&endYear=2021&entitySelectingHelper.selectedEntity=bg7&startYear=2005&offset=915&maxResults=15&filtersModified=true", callback=self.parse, headers={
@@ -90,7 +90,7 @@ class ListingsSpider(scrapy.Spider):
 
         self.offset += self.increment_by
         yield scrapy.Request(
-            url = "https://www.cargurus.com/Cars/searchResults.action?zip=44106&inventorySearchWidgetType=BODYSTYLE&searchId=ef514953-df0b-4956-959f-a88c61345e5b&nonShippableBaseline=0&makeIds=55&sortDir=ASC&sourceContext=carGurusHomePageBody&distance=200&minPrice=0&sortType=DEAL_SCORE&endYear=2021&entitySelectingHelper.selectedEntity=bg6&startYear=2005&offset={}&maxResults=15&filtersModified=true".format(self.offset),
+            url = "https://www.cargurus.com/Cars/searchResults.action?zip=44106&inventorySearchWidgetType=BODYSTYLE&searchId=ef514953-df0b-4956-959f-a88c61345e5b&nonShippableBaseline=0&makeIds=42&sortDir=ASC&sourceContext=carGurusHomePageBody&distance=200&minPrice=0&sortType=DEAL_SCORE&endYear=2021&entitySelectingHelper.selectedEntity=bg6&startYear=2005&offset={}&maxResults=15&filtersModified=true".format(self.offset),
             callback=self.parse, headers={
                 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36'
             }
