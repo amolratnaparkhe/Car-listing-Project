@@ -32,5 +32,5 @@
  ### 4. Conlusions/Remarks
  - The two models are compared and the one with the lower RMSE is preferred.
  - **Limitations:** Possible reasons preventing the model from performing better.
- - **Future directions:** Advanced frameworks like [XgBoost](https://xgboost.readthedocs.io/en/latest/) and Neural Networks using [Tensorflow](https://www.tensorflow.org/) could be employed to see how they perform.
- - 
+ - **Future directions:**  Advanced frameworks like [XgBoost](https://xgboost.readthedocs.io/en/latest/) and Neural Networks using [Tensorflow](https://www.tensorflow.org/) could be employed to see how they perform.
+ - **Future directions(contd..):** Planning to scrape more and more data since at the end, good quality data will beat any fancy algorithm.
