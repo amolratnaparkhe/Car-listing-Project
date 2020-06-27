@@ -1,11 +1,11 @@
 #        End-to-end Car listing Data Science Project.
-## Objective: To do a comprehensive data analysis and predict the price of a used car(Sedan or SUV) in the Greater Cleveland area.
-**Motivation:** After having looked for a car for myself on the websites like Cargurus for long, I thought of building a model that'd do the price prediction part for me.
-> **Note:** I'm interested in predicting the prices for 
+## Objective: To do a comprehensive data analysis on the used car dataset in the Greater Cleveland and predict the prices of a used cars.
+**Motivation:** After having looked for a car myself on the websites like Cargurus for some time, I thought of building a model that'd do the price prediction part for me.
+
+> **Note:** As far as this project goes, I'm only interested in predicting the prices for 
 >
->> * a used car
->> * a sedan or an suv/crossover
->> * brands are not so important for the project
+>> * a used car, a sedan or an suv/crossover 
+>> * individual brands are not considered for the project
 >> * top 10 car brands for each category are chosen
 >> * To maintain zero bias across brands, about 1000 records from each brand are scraped.
 
