@@ -29,7 +29,7 @@
  - **Random Forest:** Large number of complex and random decision trees(low bias - high variance) in parallel.
  - **Gradient Boosting:** Large number of weak learners(high bias - low variance) which improve upon the errors made by the previous trees.
  
- ### 4. Conlusions/Remarks
+ ### 5. Conlusions/Remarks
  - The two models are compared and the one with the lower RMSE is preferred.
  - **Limitations:** Possible reasons preventing the model from performing better.
  - **Future directions:**  Advanced frameworks like [XgBoost](https://xgboost.readthedocs.io/en/latest/) and Neural Networks using [Tensorflow](https://www.tensorflow.org/) could be employed to see how they perform.
