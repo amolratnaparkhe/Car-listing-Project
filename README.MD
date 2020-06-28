@@ -1,6 +1,6 @@
 #        End-to-end Car listing Data Science Project.
-## Objective: To do a comprehensive data analysis on the used car dataset in the Greater Cleveland area and predict the prices of used cars.
-**Motivation:** After having looked for a car myself on the websites like Cargurus for some time, I thought of building a regression model to predict the prices.
+## Objective: To do a comprehensive data analysis on the used car dataset in the Greater Cleveland area and building a regression model to predict the prices of used cars.
+**Motivation:** After having looked for a car myself on the websites like Cargurus for some time, I thought it'd be a good idea to build a model which predicts the prices of the cars I'm interested in.
 
 > **Note:** As far as this project goes, I'm interested in predicting the prices for 
 >
@@ -18,7 +18,7 @@
   - The dataset is cleaned by using the methods of data imputation and is ready for the next step of data exploration. 
   
  ### 3. Data exploration/visualization/analysis
-  - Useful Python libraries like Numpy, Pandas, Matplotlib, Scipy and Seaborn are used to study, visualize and analyze each and every one of the features which could potentially affect the price of the vehicle. The features whcih statistically hold little/no importance are dropped.
+  - Useful Python libraries like Numpy, Pandas, Matplotlib, Scipy and Seaborn are used to study, visualize and analyze each and every one of the features which could potentially affect the price of the vehicle. The features which statistically hold little/no importance are dropped.
   
  ### 4. Building the Model
  - I have employed two Decision tree based models: Random Forest and GradientBoosting.
