@@ -2,16 +2,16 @@
 ## Objective: To do a comprehensive data analysis on the used car dataset in the Greater Cleveland area and building a regression model to predict the prices of used cars.
 **Motivation:** After having looked for a car myself on the websites like Cargurus for some time, I thought it'd be a good idea to build a model which predicts the prices of the cars I'm interested in.
 
-> **Note:** As far as this project goes, I'm interested in predicting the prices for 
+> **Note:** As far as this project goes, I'm trying to predict the prices for 
 >
 >> * used cars, in specific, a sedan or an suv/crossover regardless of a particular brand. 
 >> * top 10 car brands for each category are chosen.
->> * To maintain zero bias across brands, about 1000 records from each brand are scraped.
+>> * To maintain zero bias, the samples are scraped and spread equally among the major brands.
 
 
 ## This project is divided into 5 parts:
 ### 1. Obtain the data
- - I used the Python library [Scrapy](https://scrapy.org/) and [Cargurus' website](https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?zip=44106&inventorySearchWidgetType=BODYSTYLE&bodyTypeGroup=bg7&showNegotiable=true&sortDir=ASC&sourceContext=carGurusHomePageModel&distance=200&sortType=DEAL_SCORE&endYear=2021&startYear=2005) to scrape the vehicle data within a 200 miles radius and between the years 2005-2021.
+ - I have used the Python library [Scrapy](https://scrapy.org/) and [Cargurus' website](https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?zip=44106&inventorySearchWidgetType=BODYSTYLE&bodyTypeGroup=bg7&showNegotiable=true&sortDir=ASC&sourceContext=carGurusHomePageModel&distance=200&sortType=DEAL_SCORE&endYear=2021&startYear=2005) to scrape the vehicles data within a 200 miles radius and between the years 2005-2021.
  
  ### 2. Data cleaning
   - The dataset comprises of about 20k records with over 20 features with many of the columns containing missing values.
