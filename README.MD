@@ -29,6 +29,7 @@
  
  ### 5. Conlusions/Remarks
  - The two models are compared and the one with the lower RMSE is preferred.
- - **Limitations:** Possible reasons preventing the model from performing better.
- - **Future directions:**  Advanced frameworks like [XgBoost](https://xgboost.readthedocs.io/en/latest/) and Neural Networks using [Tensorflow](https://www.tensorflow.org/) could be employed to see how they perform.
- - **Future directions(contd..):** Planning to scrape more and more data since at the end, good quality data will beat any fancy algorithm.
+ - **Limitations:** Discuss the possible reasons preventing the model from performing better.
+ - **Future directions:** I'd like to employ some of the advanced frameworks like [XgBoost](https://xgboost.readthedocs.io/en/latest/) and Neural Networks using the [Tensorflow library](https://www.tensorflow.org/) to see how they perform.
+ - **Future directions(contd..):** The goal is to eventually deploy the model on a webpage so that anybody can take advantage of this model by. All you got to do is to just feed in the features you're looking for in their dream car and the model will predict the price.
+ - **Future directions(contd..):** I'd like to also span not just the area of Cleveland but all the cities/regions in the US and include all kinds of vehicles. That sort of functionality will require me to scrape more and more data. And as they say, 'large and good quality data always beats any fancy algorithm', I hope to build a robust and accurate platform for the users.
