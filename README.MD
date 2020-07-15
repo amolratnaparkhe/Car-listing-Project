@@ -11,7 +11,8 @@
 
 ## This project is divided into 5 parts:
 ### 1. Obtain the data
- - I have used the Python library [Scrapy](https://scrapy.org/) and [Cargurus' website](https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?zip=44106&inventorySearchWidgetType=BODYSTYLE&bodyTypeGroup=bg7&showNegotiable=true&sortDir=ASC&sourceContext=carGurusHomePageModel&distance=200&sortType=DEAL_SCORE&endYear=2021&startYear=2005) to scrape the vehicles data within a 200 miles radius and between the years 2005-2021.
+ - I have used the Python library [Scrapy](https://scrapy.org/) and [Cargurus' website](https://www.cargurus.com/Cars/inventorylisting/viewDetailsFilterViewInventoryListing.action?zip=44106&inventorySearchWidgetType=BODYSTYLE&bodyTypeGroup=bg7&showNegotiable=true&sortDir=ASC&sourceContext=carGurusHomePageModel&distance=200&sortType=DEAL_SCORE&endYear=2021&startYear=2005) to scrape the vehicles data within a 200 miles radius and between the years 2005-2021. 
+ - I'm building a separate repository on Data mining where I clearly explain how do I use Scrapy to efficiently pull the data from any website.
  
  ### 2. Data cleaning
   - The dataset comprises of about 20k records with over 20 features with many of the columns containing missing values.
